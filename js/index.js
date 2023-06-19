@@ -66,7 +66,6 @@ navLinks.forEach(navLink => {
   })
 })
 
-
 // Stretch with GSAP
 window.onload = () => {
   TweenMax.from(".nav-container", 2, {x:-200, ease:Bounce.easeOut});
